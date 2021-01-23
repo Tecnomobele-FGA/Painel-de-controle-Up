@@ -42,7 +42,7 @@ Com pesquisas de projetos semelhantes conseguimos identificar dois endereços pa
 
 |Endereço |            Frame              | 
 |:-------:|:-----------------------------:|        
-|    ID   | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+|    ID   | 1   2   3   4   5   6   7   8 |
 
 Onde para cada endereço é enviado um frame com até 8 bytes.
 
