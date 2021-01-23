@@ -37,7 +37,7 @@ Para realizar a comunicação com o painel, foi utilizado o beaglebone que já p
 # 2 Software
 
 O sistema de comunicação CAN com o painel foi desenvolvido em `C` e foi iniciado com um código para ler e verificar se o painel esta realizando alguma comunicação CAN, como exibido na imagem:
-![](Figuras/painel_pin.jpeg)
+![](Testes/rx_can.PNG)
 Com pesquisas de projetos semelhantes conseguimos identificar dois endereços para testes, o `0x280` vinculado ao RPM e o `0x470` vinculado a sinalização do veículo, como setas e luz alta. Uma mensagem CAN é definida pela seguinte estrutura:  
 
 |Endereço |            Frame              | 
@@ -48,6 +48,11 @@ Onde para cada endereço é enviado um frame com até 8 bytes.
 
 Para o endereço `0x470`, o endereço de sinalização do veículo, conseguiu-se identificar os bytes 1,3 e 8.
 O primeiro byte refere-se as setas em que seus valores podem variar entre 1, 2 e 3, onde 1 refere-se a seta esquerda, 2 a seta direita e 3 ambas.  
-O terceiro byte é a luz de fundo do painel, podendo variar entre 0 ou 1, 0 para desligado e 1 pra ligado.
+O terceiro byte é a luz de fundo do painel, podendo variar entre 0 ou 1, 0 para desligado e 1 pra ligado. 
+Os resultados dos destes podem ser observados abaixo:
+![](Testes/painel_on.jpeg)
+![](Testes/setas_luz_alta.jpeg)
+![](Testes/setas_milha.jpeg)
 
-Já o endereço `0x280` é reservado para os dados de RPM. Aqui ainda não ficou muito evidente como o painel consegue observar os dados que nós enviados, pois modificando alguns bytes os resultados foram os mesmos. 
+
+Já o endereço `0x280` é reservado para os dados de RPM e temperatura. Aqui ainda não ficou muito evidente como o painel consegue observar os dados que nós enviados, pois modificando alguns bytes os resultados foram os mesmos. 
