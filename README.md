@@ -6,9 +6,9 @@ Processo para hackear o painel de controle do Up através do barramento CAN.
 Para o início deste projeto foi necessário identificar as conexões e pinagens da comunicação CAN bus no painel de controle, assim como a sua devida alimentação para garantir o seu 
 funcionamento. Assim, foi desmontado o painel com o intuido de identificar os transcivers para a comunicação CAN. Esse processo pode ser observado nas seguintes imagens:
 
-![](figuras/painel_up2.jpeg)
+![](figuras/Painel_up2.jpeg)
  aaaaaaaaaaaaaaaaaa
 
-![](Figuras/painel_up1.jpeg)   
+![](Figuras/Painel_up1.jpeg)   
 aaaaaaaaaaaa
 # 1.1 Conexões
