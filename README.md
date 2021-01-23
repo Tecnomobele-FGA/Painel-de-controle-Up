@@ -21,7 +21,7 @@ As pinagems dos conectores foram organizados e acoplados da seguinte forma:
 ![](Figuras/painel_pin.jpeg)
 
 
-| pino - DB9 | Painel | 
+| Pinos-DB9  | Painel | 
 |:----------:|:------:|        
 | 1          |    -   |         
 | 2  CAN Low |   29   |        
