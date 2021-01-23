@@ -23,13 +23,13 @@ As pinagems dos conectores foram organizados e acoplados da seguinte forma:
 
 | pino - DB9 | Painel | 
 |:----------:|:------:|        
-| 1    -     |        |         
+| 1          |    -   |         
 | 2  CAN Low |   29   |        
 | 3   GND    |   16   |         
-| 4    -     |        |         
-| 6    -     |    -   |    
+| 4          |    -   |         
+| 6          |    -   |    
 | 7 CAN High |   28   |        
-| 8    -     |    -   |        
+| 8          |    -   |        
 | 9   12V    |  32,31 |        
 
 
