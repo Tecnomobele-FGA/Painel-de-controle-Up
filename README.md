@@ -10,4 +10,5 @@ funcionamento. Assim, foi desmontado o painel com o intuido de identificar os tr
  
 ![](Figuras/Painel_up2.jpeg)   
 
+As demais imagens podem ser observadas [aqui](https://github.com/Tecnomobele-FGA/Modulo-luzes/tree/master/fotos).
 # 1.1 Conexões
