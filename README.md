@@ -50,7 +50,7 @@ Para o endereço `0x470`, o endereço de sinalização do veículo, conseguiu-se
 O primeiro byte refere-se as setas em que seus valores podem variar entre 1, 2 e 3, onde 1 refere-se a seta esquerda, 2 a seta direita e 3 ambas.  
 O terceiro byte é a luz de fundo do painel, podendo variar entre 0 ou 1, 0 para desligado e 1 pra ligado. 
 Os resultados dos destes podem ser observados abaixo:
-![](Testes/painel_on.jpeg)
+![](Testes/rpm_temp.jpeg)
 ![](Testes/setas_luz_alta.jpeg)
 ![](Testes/setas_milha.jpeg)
 
