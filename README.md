@@ -8,6 +8,6 @@ funcionamento. Assim, foi desmontado o painel com o intuido de identificar os tr
 
 
 
-![](figuras/painel_up_frente.jpg)   
+![](Figuras/painel_up1.jpeg)   
 
 # 1.1 Conexões
