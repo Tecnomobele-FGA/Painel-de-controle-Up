@@ -49,8 +49,8 @@ Com pesquisas de projetos semelhantes conseguimos identificar dois endereços pa
 Onde para cada endereço é enviado um frame com até 8 bytes.
 
 Para o endereço `0x470`, o endereço de sinalização do veículo, conseguiu-se identificar os bytes 1, 3 e 8.
-O primeiro byte refere-se as setas em que seus valores podem variar entre 0x01, 0x02 e 0x03, onde 0x01 refere-se a seta esquerda, 0x02 a seta direita e 0x03 ambas (pisca-alerta).
-O terceiro byte é a luz de fundo do painel, podendo variar entre 0x00 ou 0x01, 0x00 para desligado e 0x01 pra ligado. 
+O primeiro byte refere-se as setas em que seus valores podem variar entre `0x01`, `0x02` e ``0x03``, onde ``0x01`` refere-se a seta esquerda, ``0x02`` a seta direita e ``0x03`` ambas (pisca-alerta).
+O terceiro byte é a luz de fundo do painel, podendo variar entre ``0x00`` ou ``0x01``, ``0x00`` para desligado e ``0x01`` pra ligado. 
 Os resultados dos destes podem ser observados abaixo:
 ![](Testes/rpm_temp.jpeg)
 ![](Testes/setas_luz_alta.jpeg)
